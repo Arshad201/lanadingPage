@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ .swiper-button-next, .swiper-button-prev{
+  color: #fff;
+ }
+ .swiper-button-next::after, .swiper-button-prev::after{
+  font-size: 1.5rem;
+ }
+
+ .swiper-pagination-bullet, .swiper-pagination-bullet-active{
+  background-color: #ffffffd3;
+  width: 0.6rem;
+  height: 0.6rem;
+ }
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
